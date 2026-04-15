@@ -1,0 +1,77 @@
+<svg width="820" height="560" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 560">
+  <defs>
+    <style>
+      text { font-family: 'SF Mono', 'Cascadia Code', 'Fira Code', Menlo, monospace; }
+    </style>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#010409"/>
+    </linearGradient>
+  </defs>
+  <!-- Window -->
+  <rect width="820" height="560" rx="12" fill="url(#bg)"/>
+  <!-- Title bar -->
+  <rect width="820" height="42" rx="12" fill="#161b22"/>
+  <rect y="22" width="820" height="20" fill="#161b22"/>
+  <!-- Traffic lights -->
+  <circle cx="24" cy="21" r="6.5" fill="#ff5f56"/>
+  <circle cx="46" cy="21" r="6.5" fill="#ffbd2e"/>
+  <circle cx="68" cy="21" r="6.5" fill="#27c93f"/>
+  <!-- Window title -->
+  <text x="410" y="26" font-size="12" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">zsh — 82×28</text>
+
+  <!-- Prompt + command -->
+  <text x="20" y="68" font-size="13.5">
+    <tspan fill="#3fb950">❯</tspan>
+    <tspan fill="#c9d1d9"> devpulse</tspan>
+  </text>
+
+  <!-- Header box -->
+  <text x="20" y="96" font-size="13" fill="#8b949e">╔══════════════════════════════════════════════════════════════╗</text>
+  <text x="20" y="114" font-size="13">
+    <tspan fill="#8b949e">║  </tspan><tspan fill="#f85149">💓</tspan><tspan fill="#e6edf3" font-weight="bold"> DevPulse</tspan><tspan fill="#8b949e">  ·  </tspan><tspan fill="#c9d1d9">my-awesome-api</tspan><tspan fill="#8b949e">                              ║</tspan>
+  </text>
+  <text x="20" y="132" font-size="13">
+    <tspan fill="#8b949e">║  Health Score: </tspan><tspan fill="#3fb950" font-weight="bold">94 / 100</tspan><tspan fill="#8b949e">   Grade: </tspan><tspan fill="#3fb950" font-weight="bold">A</tspan><tspan fill="#8b949e">                                    ║</tspan>
+  </text>
+  <text x="20" y="150" font-size="13" fill="#8b949e">╚══════════════════════════════════════════════════════════════╝</text>
+
+  <!-- Dependencies section -->
+  <text x="20" y="178" font-size="13">
+    <tspan fill="#e3b341">📦 Dependencies</tspan><tspan fill="#8b949e">                                          </tspan><tspan fill="#3fb950">92/100</tspan>
+  </text>
+  <text x="20" y="196" font-size="13"><tspan fill="#3fb950">  ✅</tspan><tspan fill="#c9d1d9">  package.json found</tspan></text>
+  <text x="20" y="213" font-size="13"><tspan fill="#3fb950">  ✅</tspan><tspan fill="#c9d1d9">  package-lock.json found</tspan></text>
+  <text x="20" y="230" font-size="13"><tspan fill="#3fb950">  ✅</tspan><tspan fill="#c9d1d9">  24 production dependencies</tspan></text>
+  <text x="20" y="247" font-size="13"><tspan fill="#d29922">  ⚠️ </tspan><tspan fill="#c9d1d9">  3 dependencies could be devDependencies</tspan></text>
+
+  <!-- TypeScript section -->
+  <text x="20" y="275" font-size="13">
+    <tspan fill="#58a6ff">🔷 TypeScript</tspan><tspan fill="#8b949e">                                             </tspan><tspan fill="#3fb950">100/100</tspan>
+  </text>
+  <text x="20" y="293" font-size="13"><tspan fill="#3fb950">  ✅</tspan><tspan fill="#c9d1d9">  TypeScript 5.7 installed</tspan></text>
+  <text x="20" y="310" font-size="13"><tspan fill="#3fb950">  ✅</tspan><tspan fill="#c9d1d9">  tsconfig.json present</tspan></text>
+  <text x="20" y="327" font-size="13"><tspan fill="#3fb950">  ✅</tspan><tspan fill="#c9d1d9">  strict mode enabled</tspan></text>
+
+  <!-- Security section -->
+  <text x="20" y="355" font-size="13">
+    <tspan fill="#bc8cff">🔒 Security</tspan><tspan fill="#8b949e">                                               </tspan><tspan fill="#3fb950">95/100</tspan>
+  </text>
+  <text x="20" y="373" font-size="13"><tspan fill="#3fb950">  ✅</tspan><tspan fill="#c9d1d9">  .env in .gitignore</tspan></text>
+  <text x="20" y="390" font-size="13"><tspan fill="#3fb950">  ✅</tspan><tspan fill="#c9d1d9">  No hardcoded secrets detected</tspan></text>
+
+  <!-- Structure section -->
+  <text x="20" y="418" font-size="13">
+    <tspan fill="#39d353">📁 Structure</tspan><tspan fill="#8b949e">                                              </tspan><tspan fill="#3fb950">88/100</tspan>
+  </text>
+  <text x="20" y="436" font-size="13"><tspan fill="#3fb950">  ✅</tspan><tspan fill="#c9d1d9">  src/ directory exists</tspan></text>
+  <text x="20" y="453" font-size="13"><tspan fill="#3fb950">  ✅</tspan><tspan fill="#c9d1d9">  Tests directory found</tspan></text>
+  <text x="20" y="470" font-size="13"><tspan fill="#8b949e">  ℹ️ </tspan><tspan fill="#c9d1d9">  Consider adding .env.example</tspan></text>
+
+  <!-- Footer -->
+  <text x="20" y="500" font-size="13" fill="#8b949e">────────────────────────────────────────────────────────────────</text>
+  <text x="20" y="520" font-size="13">
+    <tspan fill="#d29922">  ⚠  1 warning</tspan><tspan fill="#8b949e">  ·  </tspan><tspan fill="#58a6ff">ℹ  1 info</tspan><tspan fill="#8b949e">  ·  </tspan><tspan fill="#3fb950">✓  0 failures</tspan>
+  </text>
+  <text x="20" y="540" font-size="13" fill="#8b949e">  Completed in 0.41s</text>
+</svg>
