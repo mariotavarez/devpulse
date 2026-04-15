@@ -77,33 +77,32 @@ devpulse --json
 ### Example Output
 
 ```
-╔══════════════════════════════════════════════════════╗
-║  💓 DevPulse  ·  my-awesome-api                      ║
-║  Health Score: 94 / 100   Grade: A                   ║
-╚══════════════════════════════════════════════════════╝
+  DevPulse  ·  my-awesome-api
+  Health Score: 94 / 100   Grade: A
+  ──────────────────────────────────────────────────────
 
-📦 Dependencies                                  92/100
-  ✅  package.json found
-  ✅  package-lock.json found
-  ✅  24 production dependencies
-  ⚠️   3 deps could be devDependencies
+  Dependencies                                    92/100
+    [pass]  package.json found
+    [pass]  package-lock.json found
+    [pass]  24 production dependencies
+    [warn]  3 deps could be devDependencies
 
-🔷 TypeScript                                   100/100
-  ✅  TypeScript 5.7 installed
-  ✅  tsconfig.json present
-  ✅  strict mode enabled
+  TypeScript                                     100/100
+    [pass]  TypeScript 5.7 installed
+    [pass]  tsconfig.json present
+    [pass]  strict mode enabled
 
-🔒 Security                                      95/100
-  ✅  .env is in .gitignore
-  ✅  No hardcoded secrets detected
+  Security                                        95/100
+    [pass]  .env is in .gitignore
+    [pass]  No hardcoded secrets detected
 
-📁 Structure                                     88/100
-  ✅  src/ directory found
-  ✅  Tests directory found
-  ℹ️   Consider adding .env.example
+  Structure                                       88/100
+    [pass]  src/ directory found
+    [pass]  Tests directory found
+    [info]  Consider adding .env.example
 
-──────────────────────────────────────────────────────
-  ⚠  1 warning  ·  ℹ  1 info  ·  ✓  0 failures
+  ──────────────────────────────────────────────────────
+  1 warning  ·  1 info  ·  0 failures
   Completed in 0.41s
 ```
 
